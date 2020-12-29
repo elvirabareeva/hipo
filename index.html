@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>HIPO Рекрутинговое агентство</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-header container">
+            <a href="#"><img class="logo__header" src="img/logo.svg" alt="Логотип компании HIPO"></a>
+            <ul class="nav-list__header">
+                <li class="nav-item__header">
+                    <a href="">О нас</a>
+                </li>
+                <li class="nav-item__header">
+                    <a href="">Наши услуги</a>
+                </li>
+                <li class="nav-item__header">
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+            <button class="hamburger">
+                <span class="ham"></span>
+                <span class="bur"></span>
+                <span class="ger"></span>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="find-employee">
+                <div class="background">
+                    <div class="find-employee-contain container">
+                        <h1 class="head__find-employee">
+                            Вы ищете <br>
+                            <div class="textrotator"></div>
+                            сотрудника?
+                        </h1>
+                        <p class="find-employee-text">
+                            Наша миссия- быть полезными на пути роста благополучия соискателей и работодателей. Мы
+                            предлагаем широкий спектр услуг в сфере подбора и обучения персонала.<br> Найдите лучшего
+                            сотрудника прямо сейчас!
+                        </p>
+                        <button class="find-btn">Бесплатная консультация</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about__container container">
+                <h2 class="about__head">Мы будем полезны Вам, если</h2>
+                <ul class="about__list">
+                    <li class="about__item about__item_money animate__animated animate__delay-.5s">
+                        Сайты по поиску резюме не вписываются в ваш бюджет</li>
+                    <li class="about__item about__item_employee animate__animated animate__delay-.5s">Вы и ваши сотрудники заняты бизнесом, а до поиска новых специалистов не доходят руки</li>
+                    <li class="about__item about__item_time animate__animated animate__delay-.5s">Работник нужен еще &laquo;вчера&raquo;, но&nbsp;подходящих откликов на&nbsp;вакансию нет</li>
+                </ul>
+
+                <h2 class="about__head_second">HiPO - отличное решение для</h2>
+                <ul class="about__list_second">
+                    <li class="about__item_second">Предпринимателей, которым приходится искать персонал самостоятельно</li>
+                    <li class="about__item_second">HR, которые занимаются подбором без доступа к работным порталам(абонентская плата чрезмерно высокая)</li>
+                    <li class="about__item_second">Руководителей и&nbsp;рекрутеров, подбирающих персонал единовременно, &laquo;под проект&raquo;</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="we-help container">
+                <h2 class="we-help__head">Мы помогаем</h2>
+                <div class="we-help__contain">
+                    <div class="we-help__container">
+                        <div class="we-help-picture picture-employee" id="top">
+                            Найти лучших специалистов своей отрасли
+                        </div>
+                        <div class="we-help__container-inner">
+                            <div class="we-help-picture picture-recruit">
+                                Сократить расходы на подбор до 30%
+                            </div>
+                            <div class="we-help-picture picture-hrbrand">
+                                Повысить уровень HR бренда
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we-help-picture picture-education">
+                        Подобрать комплексное решение в вопросах подбора и обучения
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="why-hipo">
+            <div class="why-hipo-container container">
+                <div>
+                    <h2 class="why-hipo__header">Почему HIPO?</h2>
+                    <ul class="why-hipo__list">
+                        <li class="why-hipo__item">
+                            Обширная, актуальная база соискателей
+                        </li>
+                        <li class="why-hipo__item">Индивидуальный подход - находим человека в команду</li>
+                        <li class="why-hipo__item">Конфиденциальность</li>
+                        <li class="why-hipo__item">Короткие сроки от 1 недели</li>
+                        <li class="why-hipo__item">Гарантии до 3 месяцев</li>
+                        <li class="why-hipo__item">Адаптационное обучение сотрудника до выхода на работу</li>
+                    </ul>
+                </div>
+                <img class="why-hipo__picture" src="img/IMG_1529.jpg" alt="">
+            </div>
+        </section>
+        <section>
+
+            <div class="prices-container container">
+                <h2 class="prices__header">Стоимость</h2>
+                <ul class="prices__list">
+                    <li class="prices__item">
+                        <h3 class="prices__item__head">Лайт</h3>
+                        <div class="prices__item__price">Стоимость: 7% от годового дохода сотрудника</div>
+                        <ul class="prices__item__list">
+                            <li class="prices__item__list__item">Заполнение заявки на подбор</li>
+                            <li class="prices__item__list__item">Оценка резюме</li>
+                            <li class="prices__item__list__item">Очное собеседование/оффлайн</li>
+                            <li class="prices__item__list__item">Предоставление фирменного резюме с заключением
+                                рекрутера</li>
+                            <li class="prices__item__list__item">Организация собеседования на территории работодателя
+                            </li>
+                            <li class="prices__item__list__item">Гарантия бесплатной замены<br><span
+                                    class="prices__item_highlighted">30 дней</span></li>
+                        </ul>
+                    </li>
+                    <li class="prices__item">
+                        <h3 class="prices__item__head">Стандарт</h3>
+                        <div class="prices__item__price">Стоимость: 9% от годового дохода сотрудника<br> (min 35 000
+                            руб.)</div>
+                        <ul class="prices__item__list">
+                            <li class="prices__item__list__item">Заполнение заявки на подбор</li>
+                            <li class="prices__item__list__item">Оценка резюме</li>
+                            <li class="prices__item__list__item">Очное собеседование/оффлайн</li>
+                            <li class="prices__item__list__item">Проверка рекомендаций</li>
+                            <li class="prices__item__list__item">Проверка службой безопасности</li>
+                            <li class="prices__item__list__item">Предоставление фирменного резюме с заключением
+                                рекрутера</li>
+                            <li class="prices__item__list__item">Организация собеседования</li>
+                            <li class="prices__item__list__item">Гарантия бесплатной замены<br> <span
+                                    class="prices__item_highlighted">60 дней</span></li>
+                        </ul>
+
+                    </li>
+                    <li class="prices__item">
+                        <h3 class="prices__item__head">Премиум</h3>
+                        <div class="prices__item__price">Стоимость: 12% от годового дохода сотрудника<br> (min 60 000
+                            руб.)</div>
+                        <ul class="prices__item__list">
+                            <li class="prices__item__list__item">Заполнение заявки на подбор</li>
+                            <li class="prices__item__list__item">Оценка резюме</li>
+                            <li class="prices__item__list__item">Очное собеседование/оффлайн</li>
+                            <li class="prices__item__list__item">Проверка рекомендаций</li>
+                            <li class="prices__item__list__item">Проверка службой безопасности</li>
+                            <li class="prices__item__list__item">Предоставление фирменного резюме с заключением
+                                рекрутера</li>
+                            <li class="prices__item__list__item">Организация собеседования</li>
+                            <li class="prices__item__list__item">Полиграф</li>
+                            <li class="prices__item__list__item">Графология</li>
+                            <li class="prices__item__list__item">Профайлинг</li>
+                            <li class="prices__item__list__item">Гарантия бесплатной замены<br> <span
+                                    class="prices__item_highlighted">90 дней</span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="prices__notice">
+                    <div>Срок поиска: от <span class="prices__item_highlighted">14</span> дней</div>
+                    <div>Вам будет предоставлено <span class="prices__item_highlighted">от 3 до 5 кандидатов</span>,
+                        соответствующих заявке</div>
+                    <div>Предоплата <span class="prices__item_highlighted">50%</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="find">
+           <div class="container find-container">
+                <h2 class="find__head">Ищете работу?</h2>
+                <div class="form-group">
+                    <span class="find-form-label__text"> Загрузите ваше резюме</span>
+                    <input type="file" name="file" id="file" class="input-file">
+                    <label for="file" class="btn btn-tertiary js-labelFile">
+                        <i class="material-icons" aria-hidden="true">arrow_circle_up</i>
+                        <span class="js-fileName">Нажмите для загрузки</span>
+                    </label>
+                    <button class="find-form__btn btn-reset">Отправить</button>
+                </div>
+           </div>
+        </section>
+        <footer class="footer">
+            <div class="contacts container">
+                <h2 class="contacts__head">Контакты</h2>
+                <div class="contacts-container">
+                    <p class="contacts__text">Наша формула успеха&nbsp;&mdash; опыт работы в&nbsp;международных и&nbsp;федеральных компаниях, светлые креативные умы и&nbsp;любовь к&nbsp;делу.<br> Оставьте заявку и&nbsp;мы&nbsp;будем рады Вам помочь!</p>
+                    
+                   
+                    <div class="contact-us">
+                        <h3 class="contact-us__head">Оставить заявку</h3>
+                        <form action="https://postman-echo.com/post" autocomplete="on" method="POST" class="form-container js-form form">
+                            <div class="hero">
+                                <label class="form__label">Имя*</label>
+                                <input name="Имя" type="text" class="form__input form-control" data-validate-field="name" placeholder="">
+                            </div>
+                            <div class="hero">
+                                <label class="form__label">Телефон*</label>
+                                <input name="tel" type="tel" class="form__input form-control" data-validate-field="tel" data-validate-rules="phone" placeholder="">
+                            </div>
+                            <div class="hero">
+                                <label class="form__label">Сообщение</label>
+                                <input name="text" type="email" class="form__input form-control" data-validate-field="message" placeholder="">
+                            </div>
+                        <button class="form-btn" type="submit">Заказать звонок</button>
+                    </form>
+                    </div>
+                    <div class="contacs__info">
+                        <p class="contacts__address">Адрес</p>
+                        <address class="contacts__adrinfo">
+                            г. Уфа, ул. Карла Маркса, д. 37, БЦ Капитал
+                        </address>
+                        <p class="contacts__tel">Телефон</p>
+                        <p class="contacts__telnum">+7 (996) 104 9116</p>
+                        <div class="socials">
+                            <svg width="46" height="46" viewbox="0 0 46 46" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                <path d="M18.7503 22.6981C18.7503 25.0976 20.6954 27.0427 23.0949 27.0427C25.4944 27.0427 27.4395 25.0976 27.4395 22.6981C27.4395 20.2986 25.4944 18.3535 23.0949 18.3535C20.6954 18.3535 18.7503 20.2986 18.7503 22.6981Z" fill="white"/>
+                                <path d="M12.9345 15.0115C13.1433 14.4456 13.4765 13.9333 13.9095 13.5129C14.3299 13.0799 14.8418 12.7467 15.4081 12.5379C15.8674 12.3595 16.5573 12.1472 17.8281 12.0894C19.2027 12.0267 19.6149 12.0132 23.095 12.0132C26.5754 12.0132 26.9876 12.0263 28.3619 12.089C29.6326 12.1472 30.3229 12.3595 30.7818 12.5379C31.3481 12.7467 31.8604 13.0799 32.2805 13.5129C32.7134 13.9333 33.0466 14.4452 33.2558 15.0115C33.4342 15.4708 33.6465 16.1611 33.7043 17.4318C33.767 18.8061 33.7805 19.2183 33.7805 22.6987C33.7805 26.1788 33.767 26.591 33.7043 27.9657C33.6465 29.2364 33.4342 29.9263 33.2558 30.3856C33.0466 30.9519 32.7138 31.4638 32.2808 31.8842C31.8604 32.3172 31.3485 32.6504 30.7822 32.8592C30.3229 33.0379 29.6326 33.2502 28.3619 33.3081C26.9876 33.3708 26.5758 33.3839 23.0953 33.3839C19.6145 33.3839 19.2024 33.3708 17.8284 33.3081C16.5576 33.2502 15.8674 33.0379 15.4081 32.8592C14.2714 32.4207 13.373 31.5223 12.9345 30.3856C12.7561 29.9263 12.5438 29.2364 12.4856 27.9657C12.4229 26.591 12.4098 26.1788 12.4098 22.6987C12.4098 19.2183 12.4229 18.8061 12.4856 17.4318C12.5435 16.1611 12.7558 15.4708 12.9345 15.0115ZM23.095 29.3912C26.7916 29.3912 29.7882 26.395 29.7882 22.6984C29.7882 19.0018 26.7916 16.0055 23.095 16.0055C19.3987 16.0055 16.4021 19.0018 16.4021 22.6984C16.4021 26.395 19.3987 29.3912 23.095 29.3912ZM16.1375 17.305C17.0013 17.305 17.7016 16.6047 17.7016 15.7409C17.7016 14.8771 17.0013 14.1768 16.1375 14.1768C15.2737 14.1768 14.5734 14.8771 14.5734 15.7409C14.5738 16.6047 15.2737 17.305 16.1375 17.305Z" fill="white"/>
+                                <path d="M23.0949 0C35.6289 0 45.7932 10.1643 45.7932 22.6983C45.7932 35.2323 35.6289 45.3966 23.0949 45.3966C10.5609 45.3966 0.396618 35.2323 0.396618 22.6983C0.396618 10.1643 10.5609 0 23.0949 0ZM10.1397 28.0719C10.2028 29.4594 10.4234 30.4066 10.7455 31.2358C11.4226 32.9866 12.8066 34.3706 14.5574 35.0477C15.3862 35.3698 16.3338 35.5901 17.721 35.6535C19.1109 35.7168 19.5549 35.7321 23.0946 35.7321C26.6346 35.7321 27.0783 35.7168 28.4685 35.6535C29.8556 35.5901 30.8032 35.3698 31.6321 35.0477C32.5021 34.7204 33.2897 34.2075 33.9408 33.5442C34.6037 32.8934 35.1167 32.1055 35.444 31.2358C35.7661 30.407 35.9867 29.4594 36.0497 28.0722C36.1138 26.682 36.1287 26.238 36.1287 22.6983C36.1287 19.1586 36.1138 18.7146 36.0501 17.3247C35.987 15.9372 35.7668 14.99 35.4447 14.1608C35.1174 13.2911 34.6041 12.5032 33.9408 11.8524C33.29 11.1891 32.5021 10.6762 31.6324 10.3489C30.8032 10.0268 29.856 9.80651 28.4685 9.74313C27.0786 9.67975 26.6346 9.66451 23.0949 9.66451C19.5552 9.66451 19.1112 9.67975 17.7213 9.74348C16.3338 9.80651 15.3866 10.0268 14.5574 10.3485C13.6877 10.6758 12.8998 11.1891 12.2487 11.8524C11.5858 12.5035 11.0725 13.2911 10.7455 14.1608C10.4231 14.99 10.2028 15.9372 10.1394 17.3247C10.076 18.7146 10.0611 19.1586 10.0611 22.6983C10.0611 26.238 10.076 26.682 10.1397 28.0719Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clippath id="clip0">
+                                <rect width="45.3966" height="45.3966" fill="white" transform="matrix(-1 0 0 1 45.7932 0)"/>
+                                </clippath>
+                                </defs>
+                            </svg>
+                            <a class="socials__inst" target="_blank" href="https://www.instagram.com/hipo_recruiting/">Наш instagram: @hipo_recruiting</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </main>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            Rotator();
+        })
+
+        function Rotator(start_from) {
+            var phrases = ["Компетентного", "Ответственного", "Готового к развитию"];
+            var total = phrases.length;
+            var interval = 2000;
+            if (void 0 === start_from) {
+                start_from = 0;
+            }
+
+            $(".textrotator").text(phrases[start_from]).animate({
+                "opacity": "1"
+            }, 1000, function () {
+                if (start_from >= (total - 1)) {
+                    setTimeout(function () {
+                        $(".textrotator").animate({
+                            "opacity": "0"
+                        }, 1000, function () {
+                            Rotator();
+                        });
+                    }, interval);
+                } else {
+                    start_from++;
+                    setTimeout(function () {
+                        $(".textrotator").animate({
+                            "opacity": "0"
+                        }, 1000, function () {
+                            Rotator(start_from);
+                        });
+                    }, interval);
+
+                }
+
+            })
+        }
+
+
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 650) {
+                    $(".about__item_money").addClass('animate__fadeInLeft');
+                    $(".about__item_time").addClass('animate__fadeInRight');
+                    $(".about__item_employee").addClass('animate__flipInX');
+                };
+            });
+        });
+    </script>
+    <script>
+        (function() {
+   
+   'use strict';
+  
+   $('.input-file').each(function() {
+     var $input = $(this),
+         $label = $input.next('.js-labelFile'),
+         labelVal = $label.html();
+      
+    $input.on('change', function(element) {
+       var fileName = '';
+       if (element.target.value) fileName = element.target.value.split('\\').pop();
+       fileName ? $label.addClass('has-file').find('.js-fileName').html(fileName) : $label.removeClass('has-file').html(labelVal);
+    });
+   });
+  
+ })();
+    </script>
+    <script>
+
+var selector = document.querySelector("input[type='tel']");
+
+var im = new Inputmask("+7-999-9999999");
+im.mask(selector);
+
+        new JustValidate('.js-form', {
+            colorWrong: '#FF5C00',
+            rules: {
+                name:{
+                    required: true,
+                    minLength: 2,
+                    maxLength: 15,
+                },
+                
+                tel: {
+                    required: true,
+                    function: (name, value) => {
+                        const phone = selector.inputmask.unmaskedvalue()
+                        console.log(phone)
+                        return Number(phone) && phone.length === 10
+                    }
+                },
+                
+                mail:{
+                    required: true,
+                    email: true,
+                },
+
+                
+                    }, 
+
+                    messages: {
+                        email: {
+                            required: 'Укажите ваш e-mail'
+                        },
+                        name: {
+                            required: 'Как Вас зовут?'
+                        },
+                        tel: {
+                            required: 'Укажите ваш телефон'
+                        }
+                    },
+        });
+    </script>
+</body>
+
+</html>
