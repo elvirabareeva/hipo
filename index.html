@@ -222,7 +222,7 @@
                             </div>
                             <div class="hero">
                                 <label class="form__label">Сообщение</label>
-                                <input name="text" type="email" class="form__input form-control" data-validate-field="message" placeholder="">
+                                <input name="text" type="text" class="form__input form-control" data-validate-field="message" placeholder="">
                             </div>
                         <button class="form-btn" type="submit">Заказать звонок</button>
                     </form>
@@ -352,18 +352,13 @@ im.mask(selector);
                     }
                 },
                 
-                mail:{
-                    required: true,
-                    email: true,
-                },
+            
 
                 
                     }, 
 
                     messages: {
-                        email: {
-                            required: 'Укажите ваш e-mail'
-                        },
+                       
                         name: {
                             required: 'Как Вас зовут?'
                         },
