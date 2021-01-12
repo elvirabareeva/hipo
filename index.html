@@ -11,11 +11,7 @@
   />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="/js/js.js"></script>
-    <script src="/js/inputmask.min.js"></script>
-    <script src="/js/just-validate.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
     <title>HIPO Рекрутинговое агентство</title>
 </head>
 <body>
@@ -209,7 +205,7 @@
                    
                     <div class="contact-us">
                         <h3 class="contact-us__head">Оставить заявку</h3>
-                        <form action="mail.php" autocomplete="on" enctype="multipart/form-data" method="POST" class="form-container js-form form">
+                        <form action="mail.php" autocomplete="on" enctype="multipart/form-data" method="POST" class="form-container js-form form" id="form" >
                             <input type="hidden" name="admin_email[]" value="elvira.bareeva@hotmail.com">
                             <input type="hidden" name="admin_email[]" value="elja-pussycat@hotmail.com">
                             <input type="hidden" name="form_subject" value="Заявка на подбор для HIPO">
@@ -256,6 +252,11 @@
         </footer>
         
     </main>
+    <script src="js/js.js"></script>
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript">
 
     
